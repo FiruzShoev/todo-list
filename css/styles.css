@@ -1,0 +1,142 @@
+/*---- Specification ----*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*---- Main part -----*/
+
+body {
+	background: linear-gradient(to right, #ffa366, #ffffcc);
+}
+
+.container {
+	width: 400px;
+	margin: 110px auto;
+}
+
+h1 {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background: #b3b300;
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-weight: 300;
+}
+
+.fa-plus {
+	color: white;
+	float: right;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.input-wrapper {
+	height: 45px;
+	background: #F7F7F7;
+}
+
+input {
+	width: 100%;
+	height: 100%;
+	padding-left: 20px;
+	background: transparent;
+	border: none;
+	outline-color: #b3b300;
+}
+
+.todo-wrapper {
+	background: white;
+}
+
+.todo {
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+
+.todo:hover > .delete {
+	width: 40px;
+	opacity: 1;
+}
+
+.todo:hover > p {
+	margin-left: 60px;
+}
+
+p {
+	margin-left: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #65665b;
+	font-size: 18px;
+	transition: margin-left 0.4s;
+}
+
+.done {
+	text-decoration: line-through;
+	opacity: 0.8;
+}
+
+.delete {
+	width: 0;
+	height: 40px;
+	margin-right: 20px;
+	position: absolute;
+	text-align: center;
+	background: #ff4040;
+	opacity: 0;
+	transition: opacity 0.4s, width 0.4s;
+	cursor: pointer;
+}
+
+.fa-trash {
+	color: white;
+}
+
+.display-none {
+	display: none;
+}
+
+.grey {
+	background: #F7F7F7;
+}
+
+
+
+/*@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+   
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }*/
+
+ 
+/*@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+*/
+/*@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 436px) {
+
+@media screen and (max-width: 330px) {
+    .container {
+        width: 94%;
+    }
+}*/
